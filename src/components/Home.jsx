@@ -4,9 +4,9 @@ import logo from '../assets/icon-cart.svg'
 function Home() {
 
   return (
-    <div className='flex  md:max-w-lg max-w-md flex-col mx-auto md:flex-row p-5 md:p-0  '>
+    <div className='flex  md:max-w-xl max-w-md flex-col mx-auto md:flex-row p-5 md:p-0  ease-in duration-700 '>
         <div className="left flex-1 ">
-            <img src={img} alt="" className='md:rounded-l-3xl md:h-full h-96 w-full ' />
+            <img src={img} alt="" className='md:rounded-l-3xl md:h-full h-96 w-full  object-cover ' />
         </div>
 <div className="right p-8 bg-White md:rounded-r-3xl flex-1 ">
 <span className='text-gray-500 font-normal tracking-widest p-1'>PERFUME</span> 
